@@ -1,27 +1,38 @@
 # Diabetes Prediction Project
 
-## Overview
-This project predicts diabetes using machine learning algorithms.
+Machine learning project for diabetes prediction using Python.
 
-## Files Structure
-- `diabetes_analysis.ipynb` - Main analysis notebook
-- `data/` - Dataset files
-- `models/` - Trained models
-- `requirements.txt` - Python dependencies
+## Project Structure
 
-## How to Run
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the Jupyter notebook: `jupyter notebook diabetes_analysis.ipynb`
+```
+├── data/                     # Dataset files
+├── diabetes_analysis.ipynb  # Main analysis notebook
+├── diabetes_prediction.py   # Prediction model
+├── get_accuracy.py          # Accuracy evaluation
+├── Boxplot.png              # Data visualization
+├── Model evaluation result.png  # Model performance
+└── requirements.txt         # Dependencies
+```
 
-## Dataset
-[Describe your dataset source and features]
+## Getting Started
 
-## Results
-[Add your model performance and conclusions]
+1. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib/Seaborn
-- Jupyter Notebook
+2. **Run the analysis**
+   ```bash
+   jupyter notebook diabetes_analysis.ipynb
+   ```
+
+3. **Run prediction model**
+   ```bash
+   python diabetes_prediction.py
+   ```
+
+## Key Files
+
+- `diabetes_analysis.ipynb` - Main analysis and visualization
+- `diabetes_prediction.py` - Core prediction algorithm
+- `get_accuracy.py` - Model accuracy evaluation
